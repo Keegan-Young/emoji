@@ -1,0 +1,26 @@
+{
+  "name": "emoji",
+  "version": "1.0.0",
+  "description": "\"This is the AWD1111 HOT01\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Keegan-Young/emoji.git"
+  },
+  "author": "Keegan Young",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-validator": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}

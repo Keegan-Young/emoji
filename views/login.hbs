@@ -1,0 +1,23 @@
+	<!--	Begin Login Form	-->
+	<div id="container">
+		<h1 class="text-center">Login</h1>
+
+		<form id="loginForm" method="POST" action="/dashboard">
+		  <div class="form-group w-75 ml-5">
+			<label for="username">Username</label>
+			<input type="text" class="form-control" id="username" value=" {{ qs.username }}">
+		  </div>
+
+		  <div class="form-group w-75 ml-5">
+			<label for="password">Password</label>
+			<input type="password" class="form-control" id="password" value=" {{ qs.password }}">
+		  </div>
+
+			<div class="text-center">
+			  <button type="submit" class="btn btn-primary"   id="submitButton">Submit</button>
+			  <button type="reset"  class="btn btn-secondary" id="resetButton"> Reset</button>
+			</div>
+		</form>
+	</div><br><br>
+	
+	<div id="results" class="text-center"></div>
